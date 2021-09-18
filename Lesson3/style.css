@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Intro__Text{
+    width: 450px;
+    height: 30vh;
+    padding: 30px;
+    background-color: rgb(231, 24, 93);
+    color:rgb(238, 222, 238);
+    border: 3px solid black;
+    margin: 40px auto;
+}
+.btn{
+    margin: 40px;
+    text-align: center;
+    width: 150px;
+    height: 8vh;
+    background-color: rgb(19, 218, 174);
+    border: 2px solid rgb(24, 209, 117);
+    border-radius: 25px;
+}
