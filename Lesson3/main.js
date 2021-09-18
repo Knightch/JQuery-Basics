@@ -1,3 +1,4 @@
-$('.btn').on('click', function(){
+$('.btn').on('click', function(e){
     alert("hello , Dost");
+    e.stopPropagation();
 })
