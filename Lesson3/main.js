@@ -4,4 +4,5 @@ $('.btn').on('click', function(e){
 });
 $('.Intro__Text').on('mouseenter',function(){
     alert("You just enter the mouse!");
-})
+    $(this).css('background','black');
+});
