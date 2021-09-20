@@ -77,4 +77,10 @@ $(function () {
     $('input').blur(function(){
         console.log("focused is remove!")
     })
+
+    $('.s3').append('<input type="submit" />');
+    $('.s3').wrap('<form></form>')
+    $('form').submit(function(){
+        console.log("submitted!")
+    });
 }); // we add ready funtion to use javascript file above the html.
