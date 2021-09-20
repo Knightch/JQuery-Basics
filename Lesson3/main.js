@@ -67,4 +67,10 @@ $(function () {
     $('input').change(function(){
         console.log('input changed!');
     })
+    const text = $('input').val("hello!");
+    console.log(text);  
+
+    $('input').select(function(){
+        console.log(window.getSelection().toString());
+    })
 }); // we add ready funtion to use javascript file above the html.
