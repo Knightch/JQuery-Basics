@@ -32,7 +32,13 @@ $(function () {
     })
 
     $('p').mouseenter(function () {
-        $(this).css('background-color','black');
-        $(this).css('color','green');
+        $(this).css('background-color', 'black');
+        $(this).css('color', 'green');
     })
+
+    $('p').mouseleave(function () {
+        $(this).css('background-color', 'green');
+        $(this).css('color', 'white');
+    })
+
 }); // we add ready funtion to use javascript file above the html.
