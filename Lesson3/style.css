@@ -20,3 +20,16 @@
     border: 2px solid rgb(24, 209, 117);
     border-radius: 25px;
 }
+section {
+    width: 100%;
+    height: 150vh;  
+}
+.s1{
+    background-color: crimson;
+}
+.s2{
+    background-color: darkorange;
+}
+.s3{
+    background-color: lightcoral;
+}
