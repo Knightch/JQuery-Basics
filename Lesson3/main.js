@@ -73,4 +73,8 @@ $(function () {
     $('input').select(function(){
         console.log(window.getSelection().toString());
     })
+
+    $('input').blur(function(){
+        console.log("focused is remove!")
+    })
 }); // we add ready funtion to use javascript file above the html.
