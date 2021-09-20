@@ -41,4 +41,9 @@ $(function () {
         $(this).css('color', 'white');
     })
 
+    $('h1').after('<input type="text"/>');
+    $('input').keydown(function(event){
+        console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
+    });
+    
 }); // we add ready funtion to use javascript file above the html.
