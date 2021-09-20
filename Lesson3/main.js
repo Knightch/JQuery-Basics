@@ -46,8 +46,13 @@ $(function () {
     //     console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
     // });
 
+    // $('h1').after('<input type="text"/>');
+    // $('input').keyup(function(event){
+    //     console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
+    // });
+
     $('h1').after('<input type="text"/>');
-    $('input').keyup(function(event){
+    $('input').keypress(function(event){
         console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
     });
     
