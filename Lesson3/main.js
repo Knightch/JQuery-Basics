@@ -31,15 +31,15 @@ $(function () {
         $('.s3').css('background-color', '#ffa07a');
     })
 
-    $('p').mouseenter(function () {
-        $(this).css('background-color', 'black');
-        $(this).css('color', 'green');
-    })
+    // $('p').mouseenter(function () {
+    //     $(this).css('background-color', 'black');
+    //     $(this).css('color', 'green');
+    // })
 
-    $('p').mouseleave(function () {
-        $(this).css('background-color', 'green');
-        $(this).css('color', 'white');
-    })
+    // $('p').mouseleave(function () {
+    //     $(this).css('background-color', 'green');
+    //     $(this).css('color', 'white');
+    // })
 
     // $('h1').after('<input type="text"/>');
     // $('input').keydown(function(event){
@@ -51,9 +51,20 @@ $(function () {
     //     console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
     // });
 
-    $('h1').after('<input type="text"/>');
-    $('input').keypress(function(event){
-        console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
-    });
+    // $('h1').after('<input type="text"/>');
+    // $('input').keypress(function(event){
+    //     console.log(`you just typed the letter: ${event.key}, which is key-code: ${event.keyCode}`);    
+    // });
+
+    // $('p').click(function(){
+    //     console.log('event');
+    // })
     
+    $('.input__section').append('<input type="text" />');
+    $('input').focus(function(){
+        console.log('input received focus!');
+    })
+    $('input').change(function(){
+        console.log('input changed!');
+    })
 }); // we add ready funtion to use javascript file above the html.
