@@ -9,9 +9,9 @@ $(function () {
     // });
     // //$('.Intro__Text').off('mouseenter');
 
-    $(window).scroll(function(){
-        alert('hello , myself Aman')
-    })
+    // $(window).scroll(function(){
+    //     alert('hello , myself Aman')
+    // })
     $(window).resize(function(){
         $('.s1').css('background-color','green');
     })
@@ -24,4 +24,10 @@ $(function () {
         $('.Intro__Text').css('width','500px');
         $('.Intro__Text').css('height','50vh');
     }); // using click function in short way
+
+    $('#ch__color').dblclick(function(){
+        $('.s1').css('background-color','#4b0082');
+        $('.s2').css('background-color','#add8e6');
+        $('.s3').css('background-color','#ffa07a');
+    })
 }); // we add ready funtion to use javascript file above the html.
